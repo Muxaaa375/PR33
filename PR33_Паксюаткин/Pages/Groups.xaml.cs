@@ -29,5 +29,14 @@ namespace PR33_Паксюаткин.Pages
         {
 
         }
+
+        public void LoadData()
+        {
+            listView.Items.Clear();
+            for (int i = 0; i < mainWindow.groupsLists.Count; i++)
+            {
+                listView.Items.Add(mainWindow.groupsLists[i]);
+            }
+        }
     }
 }

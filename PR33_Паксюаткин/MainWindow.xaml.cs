@@ -60,5 +60,10 @@ namespace PR33_Паксюаткин
                 groupsLists.Add(newGroupsList);
             }
         }
+
+        public void OpenPage(Page _page)
+        {
+            frame.Navigate(_page);
+        }
     }
 }
