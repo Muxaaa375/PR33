@@ -24,5 +24,10 @@ namespace PR33_Паксюаткин.Pages
         {
             InitializeComponent();
         }
+
+        private void FindGroups(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
